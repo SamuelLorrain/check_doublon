@@ -23,6 +23,6 @@ config.py example
 -----------------
 
 ```
-url = "/path/to/my/failed/save"
+url = ["/path/to/my/files/1", "/path/to/my/files/2"]
 reader = "mpv"
 ```

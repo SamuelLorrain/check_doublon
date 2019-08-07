@@ -38,7 +38,7 @@ def pushdict(md5sum, path):
 
 if __name__ == '__main__':
     #put every files (how is not a dir) in a tab
-    pathToFiles = config.url
+    pathToFiles = [url for url in config.url]
     a = Path(pathToFiles).glob('**/*')
     tabFiles = [i.as_posix() for i in a if not i.is_dir()]
 
